@@ -408,17 +408,9 @@
   }
  
   @media print {
-    * { page-break-inside: avoid !important; break-inside: avoid !important; }
-    body { background: white !important; padding: 0 !important; margin: 0 !important; }
-    .document-wrapper { box-shadow: none !important; background: white !important; max-width: 100% !important; }
-    .document-inner { padding: 20px 40px !important; }
-    .section { page-break-inside: avoid !important; break-inside: avoid !important; margin-bottom: 12px !important; }
-    .provision { page-break-inside: avoid !important; break-inside: avoid !important; }
-    .doc-header { page-break-after: avoid !important; }
-    .preamble-box { page-break-inside: avoid !important; }
-    hr { display: none !important; }
-    .document-wrapper::before { display: none !important; }
-    body { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+    body { background: white; padding: 0; }
+    .document-wrapper { box-shadow: none; }
+    .document-inner { padding: 40px 56px; }
   }
  
   @media (max-width: 768px) {
@@ -458,7 +450,7 @@
  
   <!-- HEADER -->
   <header class="doc-header">
-    <div class="seal-line">Ontario Human Rights Tribunal · Accommodation Framework · First Edition 2026</div>
+    <div class="seal-line">Ontario Human Rights Tribunal · Accommodation Framework · Final Edition 2026</div>
     <div class="doc-title-main">The Desjardins Policy</div>
     <div class="doc-title-primary">Ontario Framework for Artificial Intelligence<br>as Assistive Technology in Education</div>
     <div class="doc-title-sub">A Framework for Systemic Accommodation of Students with Learning Disabilities</div>
@@ -469,7 +461,7 @@
       <div class="meta-item">HRTO Cases: <span>2026-65656-I | 2025-63706-I</span></div>
       <div class="meta-item">Clinical Anchor: <span>SickKids Clinical Record #1211670</span></div>
       <div class="meta-item">Date: <span>May 2026</span></div>
-      <div class="meta-item">IPC Reference: <span>NJ25-00506</span></div>
+      <div class="meta-item">IPC Reference: <span>NJ25-00506 (Jurisdictional Declination)</span></div>
       <div class="meta-item">Ombudsman File: <span>#479183</span></div>
       <div class="meta-item">CA Copyright (Published): <span>Reg# 1243863</span></div>
       <div class="meta-item">CA Copyright (Unpublished): <span>Reg# 1242463</span></div>
@@ -545,6 +537,11 @@
       </div>
  
       <div class="provision">
+        <span class="provision-number">0.3.2(a)</span>
+        <strong>Selective Denial of Clinical Record.</strong> Sheridan College's Accessible Learning office, in communications confirmed by Interim Associate Dean Jennifer Gillespie during a recorded meeting, refused to recognize the Applicant's SickKids Clinical Record #1211670 in its entirety. Specifically, the institution declined to accommodate the Applicant's documented ADHD, dyslexia, and 43-point neurological processing gap — recognizing only the tinnitus diagnosis for the purpose of granting minimal additional test time. Accessible Learning advisor Nicholas Matree's written communication to the Applicant explicitly confirmed this selective denial by reference to DVF Form 8. In the recorded meeting, Interim Associate Dean Gillespie confirmed the institution's position as: <em>"based on your current documented disability"</em> — expressly excluding the full clinical picture established at SickKids in 1994. The institution's refusal to recognize a clinically established, multi-decade disability record from a nationally recognized pediatric hospital, in favour of a narrow administrative classification, constitutes a failure of the individualized assessment obligation under <span class="legal-ref">s. 17 OHRC</span> and <span class="cite">McGill University Health Centre v. Syndicat, [2007] 1 SCR 161</span>. An institution is not entitled to re-litigate or selectively accept clinical findings from qualified specialists.
+      </div>
+ 
+      <div class="provision">
         <span class="provision-number">0.3.3</span>
         On February 2, 2026, the Applicant formally notified the Office of General Counsel and Associate Dean Mark Orlando that the institution had failed to implement required accommodations and that the environment was causing active medical harm. He requested an immediate transition to remote self-directed learning with AI assistive tools — a no-cost accommodation that would have allowed him to continue his studies from home, processing curriculum at a medically appropriate pace. This request was grounded in his SickKids clinical record and HRTO File No. 2025-63706-I already on record.
       </div>
@@ -606,7 +603,7 @@
         </div>
         <div class="def-item">
           <div class="def-term">"AI Detection Tool"</div>
-          <div class="def-desc">Any algorithmic system (e.g., Turnitin AI, GPTZero) purporting to identify AI-generated content, which has been documented to produce unreliable results against neurodiverse output. See Privacy Commissioner Joint Report, May 6, 2026.</div>
+          <div class="def-desc">Any algorithmic system (e.g., Turnitin AI, GPTZero) purporting to identify AI-generated content, which has been documented to produce unreliable results against neurodiverse output. See IPC–OHRC Joint Principles for the Responsible Use of Artificial Intelligence, January 21, 2026.</div>
         </div>
       </div>
     </div>
@@ -707,7 +704,7 @@
  
       <div class="provision">
         <span class="provision-number">4.3</span>
-        <strong>No-Cost Accommodation.</strong> Where a proposed accommodation imposes no direct cost on the institution — as is the case with a student using a personally owned AI tool — the institution's ability to invoke undue hardship is severely constrained. The $1,000,000 iA Financial Group investment (March 19, 2026) further confirms that infrastructure cost is not a barrier.
+        <strong>No-Cost Accommodation.</strong> Where a proposed accommodation imposes no direct cost on the institution — as is the case with a student using a personally owned AI tool — the institution's ability to invoke undue hardship is severely constrained. The accommodation requested here requires no institutional expenditure whatsoever: the student supplies the tool, the device, and the access. iA Financial Group's $1,000,000 donation to the SickKids AI (SKAI) program (March 19, 2026) further evidences the broader institutional recognition that AI integration in education and health is a funded, responsible priority — not an experimental or cost-prohibitive outlier.
       </div>
  
       <div class="provision">
@@ -740,7 +737,7 @@
  
       <div class="provision">
         <span class="provision-number">5.2</span>
-        <strong>Reliability Standard.</strong> The May 6, 2026 Joint Privacy Commissioner Report documents that AI detection tools produce unreliable outputs and engage in the over-collection of sensitive health data. Under <span class="legal-ref">Bill 149 (Working for Workers Act, 2023)</span>, any entity using AI to screen or assess output must provide written disclosure of the algorithmic parameters employed. Failure to disclose renders any adverse action based on that output procedurally deficient.
+        <strong>Reliability Standard.</strong> The IPC–OHRC Joint Principles for the Responsible Use of Artificial Intelligence (January 21, 2026) establish that AI systems used in institutional contexts must be valid, reliable, human-rights affirming, and transparent. Applied to AI detection tools (Turnitin AI, GPTZero, and equivalents), these principles are violated where such tools produce contradictory outputs — as documented in this record (0% vs. 44% on the same student's work) — and where the institution fails to disclose the algorithmic parameters employed. Under <span class="legal-ref">Bill 149 (Working for Workers Act, 2023)</span>, any entity using AI to screen or assess output must provide written disclosure of the algorithmic parameters employed. Failure to disclose renders any adverse action based on that output procedurally deficient.
       </div>
  
       <div class="provision">
@@ -750,7 +747,7 @@
  
       <div class="provision">
         <span class="provision-number">5.4</span>
-        <strong>The Cell Phone Corollary.</strong> Pursuant to the Ontario Education Minister's April 28, 2026 Directive, all provincial cell phone restrictions must contain a medical exemption. A student's mobile device configured as a primary interface for an AI assistive tool is a medical device for these purposes and exempt from general device restrictions.
+        <strong>The Cell Phone Corollary.</strong> On April 28, 2026, Ontario Education Minister Paul Calandra publicly stated that any provincial cell phone restriction would contain medical exemptions, confirming that devices used for health and special education needs are exempt from general prohibition. A student's mobile device configured as a primary interface for an AI assistive tool that is part of an accommodation plan falls squarely within that medical and special education exemption and is not subject to general device restrictions.
       </div>
  
     </div>
@@ -773,7 +770,7 @@
  
       <div class="provision">
         <span class="provision-number">6.2</span>
-        <strong>Data Residency.</strong> Pursuant to <span class="legal-ref">O. Reg. 51/26 (EDSTA)</span>, effective July 1, 2026, institutions are required to ensure digital security standards are met. Submitting a student's accommodated work product to foreign-hosted AI detection servers without consent violates applicable privacy obligations and the student's accommodation.
+        <strong>Data Residency.</strong> Pursuant to <span class="legal-ref">O. Reg. 51/26 (EDSTA)</span>, effective July 1, 2026, institutions are required to ensure digital security standards are met. Submitting a student's accommodated work product to foreign-hosted AI detection servers without consent violates applicable privacy obligations and the student's accommodation. The IPC's jurisdictional declination in NJ25-00506 (January 6, 2026) confirms that Ontario's provincial privacy framework does not extend to private foreign platforms such as Turnitin LLC — a structural gap that makes the institution, as the transmitting party, the locus of accountability under MFIPPA and PIPEDA.
       </div>
  
       <div class="provision">
@@ -864,13 +861,13 @@
           </tr>
           <tr>
             <td class="case-ref">AG Special Report<br>May 12, 2026</td>
-            <td>72% EA vacancy rate; 60% AI hallucination rate; 33% wait >1yr</td>
-            <td>Demonstrates systemic collapse of human accommodation; makes AI alternative mandatory</td>
+            <td>EA vacancies unfilled 49–72% of the time; 33% of students with special needs wait over one year for formal assessment; OPS staff accessed unsecured AI sites; only 3% of OPS staff completed responsible AI training</td>
+            <td>Demonstrates systemic collapse of human accommodation infrastructure; where mandated human supports are unavailable at this documented rate, AI assistive tools become the only viable alternative — making their prohibition a constructive denial of accommodation</td>
           </tr>
           <tr>
-            <td class="case-ref">OPC Joint Report<br>May 6, 2026</td>
-            <td>AI detection tools unreliable; indiscriminate health data scraping</td>
-            <td>Supports prohibition on detection tools against accommodated students</td>
+            <td class="case-ref">IPC–OHRC Joint Principles<br>January 21, 2026</td>
+            <td>Joint principles from the Information and Privacy Commissioner of Ontario and Ontario Human Rights Commission: AI systems must be valid, reliable, human-rights affirming, transparent, and accountable. Will ground IPC and OHRC assessment of organizations' AI adoption.</td>
+            <td>Directly governs institutional use of AI detection tools against accommodated students. An AI detection tool that produces contradictory outputs (0% vs. 44% on the same submission) fails the validity and reliability standard. Institutions applying such tools without disclosure of algorithmic parameters violate both the Principles and Bill 149.</td>
           </tr>
           <tr>
             <td class="case-ref">Bokhari v. Top Medical<br>2026 ONSC 1073</td>
@@ -878,19 +875,19 @@
             <td>Bars institution from challenging disability characterization as threshold issue</td>
           </tr>
           <tr>
-            <td class="case-ref">iA Financial Bond<br>March 19, 2026</td>
-            <td>$1,000,000 investment in AI accommodation infrastructure</td>
-            <td>Eliminates undue hardship defence on cost grounds</td>
+            <td class="case-ref">iA Financial / SickKids<br>March 19, 2026</td>
+            <td>$1,000,000 donation to SickKids Foundation for the SickKids AI (SKAI) program — integrating responsible AI across pediatric care, research, and education</td>
+            <td>Evidences mainstream institutional recognition that AI integration in health and education is a responsible, funded priority. The accommodation requested here costs the institution nothing — the student supplies the tool — making any undue hardship argument on cost grounds untenable</td>
           </tr>
           <tr>
-            <td class="case-ref">IPC NJ25-00506</td>
-            <td>Privacy Commissioner — regulatory gap in clinical AI output protection</td>
-            <td>Supports data protection provisions; confirms absence of adequate institutional framework</td>
+            <td class="case-ref">IPC NJ25-00506<br>(Jan 6, 2026)</td>
+            <td>IPC jurisdictional declination (Registrar Lorne Swartz): complaint against Turnitin LLC declined on grounds that the organization is not an institution under FIPPA, MFIPPA, PHIPA, or CYFSA. IPC referred matter to Office of the Privacy Commissioner of Canada under PIPEDA.</td>
+            <td>Affirmatively documents the jurisdictional gap in Ontario's privacy framework as it applies to private foreign AI platforms. Establishes that no Ontario body has jurisdiction over Turnitin LLC's data practices — confirming the absence of an adequate institutional protection framework and supporting the call for provincial legislative action under Bill C-27 and O. Reg. 51/26.</td>
           </tr>
           <tr>
-            <td class="case-ref">Min. Directive<br>April 28, 2026</td>
-            <td>Mandatory medical exemption in all cell phone restriction policies</td>
-            <td>Directly authorizes mobile device access for AI assistive tool use</td>
+            <td class="case-ref">Minister Calandra<br>Public Statement<br>April 28, 2026</td>
+            <td>Ontario Education Minister Paul Calandra publicly confirmed that any provincial cell phone restriction would include exemptions for students with medical and special education needs</td>
+            <td>Confirms provincial policy recognition that devices used for health and special education purposes are exempt from general restriction — directly applicable to a student using a mobile device as the interface for a clinically supported AI assistive tool</td>
           </tr>
           <tr>
             <td class="case-ref">Ombudsman #479183</td>
@@ -911,6 +908,11 @@
             <td class="case-ref">Turnitin Submission<br>ID: 2755196691<br>Sep 18, 2025</td>
             <td>Applicant's submission scanned at 0% AI on TVO ILC's own in-house Turnitin portal — within institution's own 0-24% acceptable range</td>
             <td>Directly contradicts 44% internal score; exposes unreliability of detection tool; supports prohibition on AI detection against accommodated students</td>
+          </tr>
+          <tr>
+            <td class="case-ref">Sheridan Meeting<br>Transcript<br>(Jennifer Gillespie,<br>Interim Associate Dean)</td>
+            <td>Recorded meeting transcript confirms: (1) Accessible Learning refused to recognize SickKids ADHD, dyslexia, and 43-point processing gap — accommodating tinnitus only; (2) Gillespie confirmed institution's position as "based on your current documented disability"; (3) Nicholas Matree (Accessible Learning) issued written denial citing DVF Form 8; (4) course load reduction again offered as the only alternative</td>
+            <td>Directly documents selective denial of the SickKids clinical record by Sheridan's Accessible Learning office; confirms failure of individualized assessment under s. 17 OHRC; establishes that the institution was aware of the full clinical record and chose to disregard it — constituting willful non-engagement with the accommodation obligation</td>
           </tr>
           <tr>
             <td class="case-ref">Sheridan Email<br>Feb 4, 2026<br>(Mark Orlando, Associate Dean)</td>
@@ -987,7 +989,7 @@
     <div class="section-body">
       <p>This Framework presents a simple proposition: a student with a documented neurological processing gap of 43 points, whose institution has simultaneously failed to provide the mandated human supports that gap requires and prohibited the technological accommodation that would bridge it, has been denied equal access to education in violation of the <span class="cite">Ontario Human Rights Code</span>.</p>
  
-      <p>The law is clear. The evidence is documented by the Auditor General, the Privacy Commissioner, and the Courts. The accommodation is available at no institutional cost. What is missing is the systemic recognition that AI tools, when prescribed by clinical need and used as assistive technology, are entitled to the same protection as any other accommodation device.</p>
+      <p>The law is clear. The evidence is documented by the Auditor General, the IPC and Ontario Human Rights Commission jointly, and the Courts. The accommodation is available at no institutional cost. What is missing is the systemic recognition that AI tools, when prescribed by clinical need and used as assistive technology, are entitled to the same protection as any other accommodation device.</p>
  
       <p>The HRTO has the authority under <span class="legal-ref">s. 45.2(1)(3) OHRC</span> to order systemic remedies that extend beyond the individual applicant. Ontario can be the first jurisdiction in Canada to establish AI as a recognized and protected assistive technology in education. That is not a radical proposition. It is the natural extension of forty years of human rights jurisprudence applied to a new category of tool.</p>
  
